@@ -1,0 +1,285 @@
+
+/* VARIABLES DE COLOR */
+
+:root {
+    --color-fondo: #f5f5f5;
+    --color-primario: #2a4d69;
+    --color-secundario: #4b86b4;
+    --color-acento: #adcbe3;
+    --color-texto: #222;
+    --color-blanco: #fff;
+}
+
+
+/* RESETEO BÁSICO */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ESTILO GENERAL */
+
+body {
+    font-family: Arial, sans-serif;
+    background: var(--color-fondo);
+    color: var(--color-texto);
+    line-height: 1.6;
+}
+
+/* HEADER */
+
+header {
+    background: var(--color-primario);
+    color: var(--color-blanco);
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+/* Ajustamos el contenedor del perfil */
+
+header .perfil {
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Estilo de la imagen de perfil */
+
+header img {
+    width: 400px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+/* Estilo de los enlaces sociales */
+
+header .social a {
+    color: var(--color-acento);
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hover en enlaces sociales */
+
+header .social a:hover {
+    color: var(--color-blanco);
+}
+
+
+/* SECCIONES GENERALES */
+
+section {
+    padding: 2rem 1rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Títulos de sección */
+
+section h2 {
+    color: var(--color-primario);
+    margin-bottom: 1rem;
+}
+
+
+/* FORMACIÓN Y EXPERIENCIA */
+
+.item-formacion,
+.item-experiencia {
+    margin-bottom: 1rem;
+}
+
+table {
+  margin: 20px auto; 
+  border-collapse: collapse; 
+  width: 100%;
+  max-width: 500px;
+  font-family: Arial, sans-serif;
+}
+
+table, th, td {
+  border: 1px solid #333;
+}
+
+th {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+}
+
+td {
+  padding: 12px;
+  line-height: 1.5;
+}
+
+b {
+  color: #000;
+  display: block;
+  margin-bottom: 2px;
+}
+
+
+
+/* SKILLS / BARRAS */
+
+.skill {
+    margin-bottom: 1rem;
+}
+
+/* Barra de fondo */
+.barra {
+    background: var(--color-acento);
+    height: 10px;
+    border-radius: 5px;
+}
+
+/* Barra de progreso */
+.barra span {
+    display: block;
+    height: 100%;
+    background: var(--color-primario);
+    border-radius: 5px;
+}
+
+/* HABILIDADES E IDIOMAS */
+
+#habilidades ul {
+    list-style: none;
+}
+
+/* Separación entre elementos */
+
+#habilidades li {
+    margin-bottom: 0.5rem;
+}
+
+
+/* PROYECTOS / CARDS */
+
+.contenedor-proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+/* Estilo de cada card */
+
+.card {
+    background: var(--color-blanco);
+    padding: 1rem;
+    border-radius: 10px;
+    width: calc(33% - 1rem);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform .2s;
+    text-align: center;
+}
+
+/* Imagen dentro de la card */
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+/* Hover en card */
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+/* Enlaces dentro de las cards */
+
+.card a {
+    color: var(--color-secundario);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Hover en enlaces */
+
+.card a:hover {
+    color: var(--color-primario);
+}
+
+
+/* FORMULARIO DE CONTACTO */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Inputs y textarea */
+
+input, textarea {
+    padding: 0.7rem;
+    border: 1px solid var(--color-secundario);
+    border-radius: 5px;
+}
+
+/* Botón del formulario */
+
+button {
+    background: var(--color-primario);
+    color: var(--color-blanco);
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover en botón */
+
+button:hover {
+    background: var(--color-secundario);
+}
+
+
+/* FOOTER */
+
+footer {
+    background: var(--color-primario);
+    color: var(--color-blanco);
+    text-align: center;
+    padding: 1.5rem;
+}
+
+/* Enlaces del footer */
+
+footer a {
+    color: var(--color-acento);
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Hover en footer */
+
+footer a:hover {
+    color: var(--color-blanco);
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+    .card {
+        width: calc(50% - 1rem);
+    }
+}
+
+/* Ajuste para móviles */
+
+@media (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
+
+    header img {
+        width: 90px;
+    }
+}

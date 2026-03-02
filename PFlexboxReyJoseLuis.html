@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Personal</title>
+    <link rel="stylesheet" href="Ejercicio.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="perfil">
+            <img src="../imagenes/WhatsApp Image 2026-02-23 at 09.44.29.jpeg" alt="Foto de perfil">
+            <h1>José Luis Rey González</h1><br>
+            <p>Soy un estudiante de Ciclo Superior con muchas ganas de aprender y empezar a construir mi camino profesional. 
+                Me considero una persona comprometida, curiosa y con buena capacidad de adaptación. 
+                <br><br>Estoy buscando mis primeras experiencias laborales o prácticas para seguir desarrollándome y aportar valor desde el primer día.</p><br>
+
+            <nav class="social">
+                <a href="https://github.com/Jose0711254" target="_blank">GitHub</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="formacion">
+            <h2>Formación Académica</h2>
+
+            <article class="item-formacion">
+                <h3>Bachillerato</h3>
+                <p>IES de Pastoriza | 2023 - 2025</p>
+            </article>
+
+            <article class="item-formacion">
+                <h3>Desarrollo de Aplicaciones Web</h3>
+                <p>Liceo La Paz | 2025 - Actualidad</p>
+            </article>
+        </section>
+        <section>
+            <h2>Experiencia</h2>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Experiencia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>
+                    <b>Camarero de Sala</b><br>
+                    Descripción de atención al cliente | 2024
+                </td>
+                </tr>
+                <tr>
+                <td>
+                    <b>Monitor de Tiempo Libre</b><br>
+                    Organización de actividades y talleres | 2025
+                </td>
+                </tr>
+            </tbody>
+        </table>
+        </section>
+
+
+        <section id="skills">
+            <h2>Conocimientos Técnicos</h2>
+
+            <div class="skill">
+                <p>HTML / CSS / Flexbox</p>
+                <div class="barra"><span style="width: 80%"></span></div>
+            </div>
+
+            <div class="skill">
+                <p>Java</p>
+                <div class="barra"><span style="width: 65%"></span></div>
+            </div>
+
+            <div class="skill">
+                <p>Montaje de Hardware</p>
+                <div class="barra"><span style="width: 70%"></span></div>
+            </div>
+
+            <div class="skill">
+                <p>PSint</p>
+                <div class="barra"><span style="width: 45%"></span></div>
+            </div>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+
+            <ul>
+                <li>Inglés (B2)</li>
+                <li>Metodologías Ágiles</li>
+                <li>Trabajo en equipo</li>
+                <li>Adaptabilidad</li>
+            </ul>
+        </section>
+
+        <section id="proyectos">
+            <h2>Prácticas Destacadas</h2>
+
+            <div class="contenedor-proyectos">
+
+                <article class="card">
+                    <img src="../imagenes/fotoHundirLaFlota.png" alt="Proyecto 1"><br><br>
+                    <h3>Hundir la flota</h3><br><br>
+                    <p>Consiste en un programa que simule el juego popular. <i>Hundir la Flota</i></p><br>
+                    <a href="https://github.com/Jose0711254/PraticaHundirLaFlota.git" target="_blank">Enlace a GitHub</a>
+                </article>
+
+                <article class="card">
+                    <img src="../imagenes/fotoOrdenador.png" alt="Proyecto 2">
+                    <h3>Gestión Parking/Gimnasio/Pizzas</h3><br>
+                    <p>Consiste en un programa con distintas clases, utilizando conocimientos de programación más avanzados.</p><br>
+                    <a href="https://github.com/Jose0711254/GestionParking_Gimnasio_Naves_Pizza.git" target="_blank">Enlace a GitHub</a>
+                </article>
+
+                <article class="card">
+                    <img src="../imagenes/fotoChaplin .png" alt="Proyecto 3">
+                    <h3>Cineclub Chaplin</h3><br>
+                    <p>Consiste en crear una web breve, pero solo estéticamente, sin funcionalidad. <br><br> La creé a paritr de <i>app.diagrams.</i></p><br>
+                    <a href="https://drive.google.com/file/d/1OFj_m0MZ1UpQdYhhBIyTZfabXNAocILJ/view?usp=drive_link" target="_blank">Enlace a Google Drive</a>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Consultas</h2>
+
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" required>
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" required>
+
+                <label for="mensaje">¿En que puedo ayudarte?</label>
+                <textarea id="mensaje" required></textarea>
+
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <nav>
+            <a href="mailto: joseluisreygonzalez07@liceolapaz.net">Gmail</a>
+            <a href="https://github.com/Jose0711254" target="_blank">GitHub</a>
+        </nav>
+    </footer>
+
+</body>
+</html>
