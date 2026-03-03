@@ -1,3 +1,7 @@
 Esta práctica ha sido realizada por José Luis Rey González, estudiante del Ciclo Superior de Desarrollo de Aplicaciones Web en el centro Liceo La Paz. El objetivo principal del proyecto es la creación de un portafolio profesional que sirva como carta de presentación, donde se detallan mi formación académica, mi experiencia previa y mis aspiraciones profesionales.
+
+
 El proyecto consiste en una página web estructurada de manera semántica que incluye una presentación personal, una sección de formación donde detallo mis estudios en el IES de Pastoriza y en el Liceo La Paz, y una tabla con mi experiencia laboral como camarero y monitor. Además, el portafolio muestra mis conocimientos técnicos mediante barras de progreso visuales y una galería de proyectos destacados donde incluyo trabajos anteriores como el juego de Hundir la Flota y diversos programas de gestión realizados en Java.
+
+
 En cuanto a las tecnologías utilizadas, la web ha sido desarrollada íntegramente con HTML para la estructura del contenido y CSS para el diseño visual. He aplicado técnicas modernas de maquetación utilizando Flexbox para lograr una disposición flexible de los elementos, especialmente en la sección de proyectos. También he hecho uso de variables CSS para gestionar la paleta de colores de forma eficiente y Media Queries para asegurar que el diseño sea adaptable y se vea correctamente en diferentes dispositivos, desde ordenadores hasta teléfonos móviles.
